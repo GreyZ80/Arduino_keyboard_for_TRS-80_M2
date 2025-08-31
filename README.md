@@ -16,7 +16,7 @@ The TRS-80 Model II keyboard is rather bulky and occupies a lot of desk space. S
 This project describes a solution where you use Putty running on a Windows or Linux computer with an Arduino as keyboard replacement for a TRS-80 Model II.
 Connection between PC and Srduino is by means of a standard USB cable.
 
-<img width="300"  src="https://github.com/user-attachments/assets/38e45ba9-abd1-4610-a2d1-7861c1418159" />
+&nbsp; &nbsp; &nbsp; <img width="300"  src="https://github.com/user-attachments/assets/38e45ba9-abd1-4610-a2d1-7861c1418159" />
 
 The model 16 uses the same keyboard hardware (keyboard without cable).
 This project can also be used for the Models 12, 16B & 6000. These models use a keyboard with cable.
@@ -53,7 +53,7 @@ Arduine used: Arduino Nano\
 Processor: ATmega 168\
 These boards are available with different USB connectors. I have used mini USB for my unit.
 
-<img width="300" alt="click to enlarge" src="https://github.com/user-attachments/assets/7eec2c83-32c4-4d01-a011-8550477db702" />
+&nbsp; &nbsp; &nbsp; <img width="300" alt="click to enlarge" src="https://github.com/user-attachments/assets/7eec2c83-32c4-4d01-a011-8550477db702" />
 <BR><BR>
 
 >[!CAUTION]
@@ -62,8 +62,9 @@ These boards are available with different USB connectors. I have used mini USB f
 
 When building the Arduino into a small enclosure you might want to add and extra push button for the reset (temporarely connect to ground), and an additional led with resistor (e.g. 220 ohms) connected from D13 to ground. 
 
-<img width="300"  src="https://github.com/user-attachments/assets/b4b0e0d9-66c4-4043-8b78-8d2a7726f5ef" />
-<img width="300"  src="https://github.com/user-attachments/assets/026540a4-2391-4acd-8c78-d64c4d319a53" />
+
+&nbsp; &nbsp; &nbsp; <img width="300"  src="https://github.com/user-attachments/assets/b4b0e0d9-66c4-4043-8b78-8d2a7726f5ef" />
+&nbsp; &nbsp; &nbsp; <img width="300"  src="https://github.com/user-attachments/assets/026540a4-2391-4acd-8c78-d64c4d319a53" />
 
 I use a momentary ON switch with embedded led on top of the little enclosure.
 
@@ -88,11 +89,16 @@ Additional signals:
 ## Putty settings
 
 Putty can de downloaded for free from https://www.putty.org/.  
-To work correctly, Putty emulation must be set to VT100+ mode. Otherwise the function keys do not work correctly, but stil good enough for quick testing.
+To work correctly, Putty emulation must be set to VT100+ mode. Otherwise the function keys do not work correctly, but stil good enough for quick testing.\
 Local echo should be off.
-On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system this is normaly port 7, sometimes 6. The Arduino IDE will show the port. Alternatively the Windows system manager will also show which port is used.
 
 <img width="400" alt="Putty Settings" src="https://github.com/user-attachments/assets/599dc90e-d137-43fb-854f-a443946c9224" />
+
+On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system the Windows system manager show the port used. This is normaly port 7, sometimes 6. The Arduino IDE also shows the port under the Tool tab.
+
+&nbsp; &nbsp; &nbsp; <img width="297" alt="Windows device manager Arduino on COM7" src="https://github.com/user-attachments/assets/6e96717b-5a24-4594-b198-02c849a8e1fd" />
+&nbsp; &nbsp; &nbsp; <img width="573" height="394" alt="Arduini EDI showing Tools setting" src="https://github.com/user-attachments/assets/1d7cc2b4-d7ee-407b-9f83-87ca81849277" />
+
 
 ## Background information
 
@@ -104,7 +110,7 @@ Below the signal of the 00 character (HOLD or Ctrl-Space) as send by the Arduino
 The DATA line (yellow) shows the data (8x low) followed by the stop bit. When not active this line is high (+5 Volt).     
 The CLOCK line (blue) shows the 8 clock bits. When not active this line is low (0 Volt).  
 
-<img width="900" src="https://github.com/user-attachments/assets/6b22c48f-cf8b-4f8b-a609-2fec3f41ed4d" />
+&nbsp; &nbsp; &nbsp; <img width="900" src="https://github.com/user-attachments/assets/6b22c48f-cf8b-4f8b-a609-2fec3f41ed4d" />
 
 
 
