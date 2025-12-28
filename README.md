@@ -14,7 +14,7 @@
 
 The TRS-80 Model II keyboard is rather bulky and occupies a lot of desk space. Sometime you even do not have a proper working keyboard.
 This project describes a solution where you use Putty running on a Windows or Linux computer with an Arduino as keyboard replacement for a TRS-80 Model II.
-Connection between PC and Srduino is by means of a standard USB cable.
+Connection between PC and Arduino is by means of a standard USB cable.
 
 &nbsp; &nbsp; &nbsp; <img width="300"  src="https://github.com/user-attachments/assets/38e45ba9-abd1-4610-a2d1-7861c1418159" />
 
@@ -71,20 +71,20 @@ I use a momentary ON switch with embedded led on top of the little enclosure.
 The pins of the DIN connector are connected to the Arduino in the following manner:
 
 
-| Signal | Model II, 16 | Model 12, 16B, 6000 | Arduino Nano |
-|--|:---: |:---: |:---: |
-| DATA | 1 | 1 | D4 |
-| BUSY* | 2 | 3 | D2 |
-| Gnd | 3 | 5 | Gnd |
-| CLOCK | 4 | 2 | D3 |
+| Signal | Model II, 16 | Model 12, 16B, 6000 | Arduino Nano | Color |
+|--|:---: |:---: |:---: |:---: |
+| DATA | 1 | 1 | D4 | purple |
+| BUSY* | 2 | 3 | D2 | grey |
+| Gnd | 3 | 5 | Gnd | black |
+| CLOCK | 4 | 2 | D3 | white |
 | +5V | 5 | 4 | NOT USED |
 
 Additional signals:
 
-| Function | Arduino Nano |
-| -- | :---:  |
-| Same as built-in led | D13 |
-| Reset line | RST |
+| Function | Arduino Pin | Color |
+|--|:---: |:---: |
+| Same as built-in led | D13 | blue |
+| Reset line | RST | orange |
 
 ## Putty settings
 
