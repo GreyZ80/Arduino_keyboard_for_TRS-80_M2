@@ -74,9 +74,9 @@ The pins of the DIN connector are connected to the Arduino in the following mann
 | Signal | Model II, 16 | Model 12, 16B, 6000 | Arduino Nano | Color |
 |--|:---: |:---: |:---: |:---: |
 | DATA | 1 | 1 | D4 | purple |
-| BUSY* | 2 | 3 | D2 | grey |
+| BUSY* | 2 | 3 | D2 | white |
 | Gnd | 3 | 5 | Gnd | black |
-| CLOCK | 4 | 2 | D3 | white |
+| CLOCK | 4 | 2 | D3 | grey |
 | +5V | 5 | 4 | NOT USED |
 
 Additional signals:
