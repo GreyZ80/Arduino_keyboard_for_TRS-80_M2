@@ -94,7 +94,9 @@ Local echo should be off.
 
 <img width="400" alt="Putty Settings" src="https://github.com/user-attachments/assets/599dc90e-d137-43fb-854f-a443946c9224" />
 
-On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system the Windows system manager show the port used. This is normaly port 7, sometimes 6. The Arduino IDE also shows the port under the Tool tab.
+On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system the Windows system manager show the port used. This is normaly port 7, sometimes 6. The Arduino IDE also shows the port under the Tool tab.\
+On a Chromebook the Minicom application works nice in the Linux shell.
+
 
 &nbsp; &nbsp; &nbsp; <img width="297" alt="Windows device manager Arduino on COM7" src="https://github.com/user-attachments/assets/6e96717b-5a24-4594-b198-02c849a8e1fd" />
 &nbsp; &nbsp; &nbsp; <img width="573" height="394" alt="Arduini EDI showing Tools setting" src="https://github.com/user-attachments/assets/1d7cc2b4-d7ee-407b-9f83-87ca81849277" />
@@ -122,7 +124,8 @@ The current code gives bit pulse width of about 500 micro seconds. Transmission 
 
 - During startup, the Tandy computer might detect one or two spurious keystrokes. Possibly caused by the fact that the Arduino is initialising. I have not been able to fix this.
 - It is not absolutely necessary to use Putty. Other software that can communicate with USB as serial port can work. However, many programs I found will only transmit the characters to the Arduino after hitting [enter]. That might not always be practical.
-- When the keyboard stalls, you can try to reset it or restart the putty session.
+- When the keyboard stalls, you can try to reset it or restart the putty session
+- When a single keystroke translates in multiple (weird) characters, check the data line 
 
 ## About me
 
