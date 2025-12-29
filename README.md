@@ -125,7 +125,7 @@ The current code gives bit pulse width of about 500 micro seconds. Transmission 
 - During startup, the Tandy computer might detect one or two spurious keystrokes. Possibly caused by the fact that the Arduino is initialising. I have not been able to fix this.
 - It is not absolutely necessary to use Putty. Other software that can communicate with USB as serial port can work. However, many programs I found will only transmit the characters to the Arduino after hitting [enter]. That might not always be practical.
 - When the keyboard stalls, you can try to reset it or restart the putty session
-- When a single keystroke translates in multiple (weird) characters, check the data line 
+- When a single keystroke translates in multiple and or weird characters, check the quality of the signals on an oscilloscope. Possible cause is bad connections.
 
 ## About me
 
