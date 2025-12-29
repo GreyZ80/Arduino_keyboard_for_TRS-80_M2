@@ -5,10 +5,10 @@
 // Change log:
 //  6/4/25  Added key processing for arrows and backspace
 //          Made SendChar a seperate function
-//  7/4/25  Test with Pro Mini -> OK
+//  7/4/25  Test with Arduino Pro Mini -> OK
 //          life blink is timer based (8 sec)
-// 10/4/25  Implemented code for F1~F12. Have PuTTY keyboard behaviour 
-//          set to VT100+
+// 10/4/25  Implemented code for F1~F12.
+//          Have PuTTY keyboard behaviour set to VT100+
 //---------------------------------------------------------------
 //
 // Decisions:
