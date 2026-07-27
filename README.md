@@ -90,12 +90,14 @@ Additional signals:
 
 Putty can de downloaded for free from https://www.putty.org/.  
 To work correctly, Putty emulation must be set to VT100+ mode. Otherwise the function keys do not work correctly, but stil good enough for quick testing.\
-Local echo should be off.
+Local echo should be off.\
+Baudrate is 9600.
 
 <img width="400" alt="Putty Settings" src="https://github.com/user-attachments/assets/599dc90e-d137-43fb-854f-a443946c9224" />
 
 On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system the Windows system manager show the port used. This is normaly port 7, sometimes 6 (when using a different USB port). The Arduino IDE also shows the port under the Tool tab.\
-On a Chromebook the **Minicom** application works nice in the Linux shell.
+On a Chromebook the **Minicom** application works nice in the Linux shell. Run "sudo minicom -s" to change settings.\
+See https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom for more info.
 
 
 &nbsp; &nbsp; &nbsp; <img width="297" alt="Windows device manager Arduino on COM7" src="https://github.com/user-attachments/assets/6e96717b-5a24-4594-b198-02c849a8e1fd" />
