@@ -97,7 +97,8 @@ Baudrate is 9600.
 
 On a Windows PC, the OS might assign a different serial port to the USB connection to the Arduino. On my system the Windows system manager show the port used. This is normaly port 7, sometimes 6 (when using a different USB port). The Arduino IDE also shows the port under the Tool tab.\
 On a Chromebook the **Minicom** application works nice in the Linux shell. Run "sudo minicom -s" to change settings.\
-See https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom for more info.
+See https://wiki.emacinc.com/wiki/Getting_Started_With_Minicom for more info.\
+Alternatively also Putty can be installed on the Chromebook or Linux systems.
 
 
 &nbsp; &nbsp; &nbsp; <img width="297" alt="Windows device manager Arduino on COM7" src="https://github.com/user-attachments/assets/6e96717b-5a24-4594-b198-02c849a8e1fd" />
