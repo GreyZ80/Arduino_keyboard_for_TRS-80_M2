@@ -39,7 +39,7 @@ The following features are embedded in the unit. By changing the Arduino code, c
 The BUSY* line coming from the Model II is not used to wait until the Model II is ready to receive a key. The Model II is much faster than the typist. 
 
 When starting up (or after pressing reset on the Arduino) a welcome text will be printed on the Putty screen. This will also show the status of the Model II.
-This message can also be triggered by typing Cntrl-t.
+This message can also be triggered by typing Cntrl-t. The Cntrl-t will be send to the Model II.
 
 During normal operation, the build-in led blinks briefly every 8 second.
 When the Model II is not connected or powered off the built-in led blinks fast at 4 Hertz to indicate an abnormal situation.
